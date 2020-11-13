@@ -1,0 +1,11 @@
+{
+  "rpc_endpoint": "http://localhost:6789",
+  // 要委托的目标节点id, 如dpos.club ID为
+  "node_id": "0xfad2c7f917eb3057d85031eae8bbda52541b527dd1d24a25e7e9b40d7329570a85dc45ec61b189a9cc30047ae906a08dc375558828e1c76dc853ce99b42b91e4",
+  // alaya: 201018
+  "chain_id": 201018,
+  // reward address
+  "reward_address": "your-reward-address",
+ 	// reward address private key : length 64
+  "reward_address_sk": "your-reward-address-private-key"
+}
