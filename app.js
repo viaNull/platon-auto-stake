@@ -1,5 +1,5 @@
 var Web3 = require('web3');
-const config = require("config.json")
+const config = require("./config.json")
 
 var web3 = new Web3(config.rpc_endpoint);
 const ppos = web3.ppos; 

@@ -22,13 +22,14 @@ config.json 字段说明
   "rpc_endpoint": "http://localhost:6789",  // 目前无公开节点，最好访问自己本地节点
   "node_id": "0xfad2c7f917eb3057d85031eae8bbda52541b527dd1d24a25e7e9b40d7329570a85dc45ec61b189a9cc30047ae906a08dc375558828e1c76dc853ce99b42b91e4", //希望复投的节点id， 如：dpos.club 节点ID如上
   "chain_id": 201018,  // alaya
-  "reward_address": "your-reward-address",
-  "reward_address_sk": "your-reward-address-private-key"
+  "reward_address": "your-reward-address",  //【reward address 的地址】
+  "reward_address_sk": "your-reward-address-private-key", //【reward address 私钥，用于领取收益+复投操作】
 }
 
 
 ```
-* 在新的screen下执行： node app.js
+* 启动新screen  `screen -S stake`
+* 在新的screen下执行： `node app.js`
 
 ## 执行结果
 距离每个epoch结束50区块之前，为等待时间。当距离epoch结束前50区块时，会执行:
@@ -48,7 +49,7 @@ config.json 字段说明
 
 vianull
 
-如果对您有用，请支持[dpos.club](https://scan.alaya.network/node-detail?address=0xfad2c7f917eb3057d85031eae8bbda52541b527dd1d24a25e7e9b40d7329570a85dc45ec61b189a9cc30047ae906a08dc375558828e1c76dc853ce99b42b91e4)
+如果对您有用，请支持Alaya节点[dpos.club](https://scan.alaya.network/node-detail?address=0xfad2c7f917eb3057d85031eae8bbda52541b527dd1d24a25e7e9b40d7329570a85dc45ec61b189a9cc30047ae906a08dc375558828e1c76dc853ce99b42b91e4)
 
 或打赏 Alaya:
 atp1842mp45vw30vgvzmylwdxmxxc00ggjp6q2gv8v
